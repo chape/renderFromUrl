@@ -1,0 +1,36 @@
+html,body,ul,ul li{margin:0;padding:0;}
+
+.wrap{
+    width:940px;
+/*
+让整个DIV居中
+*/
+    margin:auto;
+}
+
+ul{
+/*
+每组列表左右都不可以浮动
+*/
+    clear:both;
+    overflow:hidden;
+}
+
+ul li{
+/*
+去除默认的li样式
+*/
+    list-style:none;
+/*
+列表单元向左浮动
+*/
+    float:left;
+    margin:5px 5px 30px 5px;
+}
+
+ul li.clear{
+/*
+左边不允许浮动
+*/
+    clear:left;
+}
